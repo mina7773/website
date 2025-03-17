@@ -1,0 +1,1142 @@
+/* ================================================= */
+/* ------------------ General CSS ------------------ */
+/* ================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+a {
+    color: #84e47b;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #3E6F39;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+/* ================================================= */
+/* ---------------- Burger Menu CSS ---------------- */
+/* ================================================= */
+
+.header{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/index\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.couple-page .header.banner{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/couple\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.baby-shoot-page .header.banner{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/baby\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.booking-page .header.banner{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/booking\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.bride-page .header.banner{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/bride\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.contact-us .header.banner{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/contact\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.about-page .header.banner {
+    display: table;
+    position: relative;
+    background-image: url('../img/main/About\ bg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.wedding-page .header.banner{
+    display: table;
+    position: relative;
+    background-image: url('../img/main/wedding\ backround.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Makes image cover the entire area */
+    background-position: center; /* Centers the image */
+    padding: 100px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+
+
+.header.banner {
+    height: 400px;
+    background-image: url('../img/main/BackroundMain.jpg');
+}
+
+.container {
+    position: relative; /* Ensures content stays above background */
+    z-index: 1; /* Keeps content above the background */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.brand {
+    color: #fff; /* Ensures text is visible on background */
+    text-decoration: none;
+}
+
+.tagline {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* If using with sticky navbar */
+body {
+    margin: 0;
+    padding-top: 60px; /* Adjust based on navbar height */
+}
+
+.header:after {
+    content: '';
+    z-index: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.header .brand {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 100px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin
+}
+
+.header .brand:hover {
+    color: #ffffff;
+}
+
+.header .brand:hover img {
+    opacity: .9;
+}
+
+.header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.header .tagline {
+    font-size: 26px;
+    line-height: 32px;
+    margin: 30px 0 60px 0;
+    color: #fff;
+}
+
+.header .btn {
+    background-color: #7DC576;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.header .btn:hover {
+    background-color: #222222;
+    color: #7DC576;
+}
+
+.header .btn:focus {
+    color: #fff;
+}
+
+.header .btn i {
+    margin-right: 5px;
+}
+
+.popover-body .radio label {
+    margin-bottom: 0;
+}
+
+.popover-body button {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #7DC576;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.popover-body button:hover {
+    color: #7DC576;
+    background: #222222;
+}
+
+.popover-body button i {
+    margin-right: 5px;
+}
+
+@media (max-width: 61.9em) {
+    .header {
+        padding: 75px 0;
+    }
+    
+    .header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .header.banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .header .brand {
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+
+    .header .tagline {
+        margin: 35px 0;
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+/* .menu {
+    width: 60px;
+    height: 50px;
+    position: fixed;
+    z-index: 21;
+    top: 1%;
+    right: 1%;
+    background: rgba(0,0,0,.3);
+    border-radius: 6px;
+} */
+
+/* .menu span {
+    position: relative;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -9px;
+    margin-top: -1px;
+} */
+
+/* .menu span, .menu span::before, .menu span::after {
+    display: block;
+    width: 26px;
+    right: 0;
+    height: 3px;
+    background-color: #fff;
+    outline: 1px solid transparent;
+    -webkit-transition-property: background-color, -webkit-transform;
+    -moz-transition-property: background-color, -moz-transform;
+    -o-transition-property: background-color, -o-transform;
+    transition-property: background-color, transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+} */
+
+/* .menu span::before, 
+.menu span::after {
+    position: absolute;
+    content: "";
+}
+
+.menu span::before {
+    top: -9px;
+    width:20px
+}
+
+.menu span::after {
+    top: 9px;width: 33px;
+
+}
+
+.menu.clicked span {
+    background-color: transparent;
+}
+
+.menu.clicked span::before {
+    -webkit-transform: translateY(9px) rotate(45deg);
+    -moz-transform: translateY(9px) rotate(45deg);
+    -ms-transform: translateY(9px) rotate(45deg);
+    -o-transform: translateY(9px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);    
+    width: 33px;
+} */
+
+/* .menu.clicked span::after {
+    -webkit-transform: translateY(-9px) rotate(-45deg);
+    -moz-transform: translateY(-9px) rotate(-45deg);
+    -ms-transform: translateY(-9px) rotate(-45deg);
+    -o-transform: translateY(-9px) rotate(-45deg);
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.menu.clicked span:before, .menu.clicked span:after {
+    background-color: #ffffff;
+}
+
+.menu:hover {
+    cursor: pointer;
+} */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#c718c7; /* Add background color to make it visible */
+    z-index: 1000; /* Ensures it stays on top of other content */
+    box-shadow: 0 2px 5px rgba(206, 158, 158, 0); /* Optional: adds subtle shadow */
+}
+
+.main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    color: #333; /* Adjust color as needed */
+}
+
+.main li a:hover {
+    background-color: #f5f5f5; /* Optional: hover effect */
+}
+
+/* Optional: Add some padding to body to prevent content from hiding under fixed nav */
+body {
+    padding-top: 60px; /* Adjust based on your nav height */
+}
+/* ================================================= */
+/* -------------- Section Header Style ------------- */
+/* ================================================= */
+
+.section-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-header::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 200px;
+    bottom: -10px;
+    left: calc(50% - 100px);
+    background: #666;
+}
+
+.section-header::after {
+    position: absolute;
+    content: '';
+    height: 14px;
+    width: 14px;
+    bottom: -17px;
+    left: calc(50% - 7px);
+    background: #666;
+    border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .section-header h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section-header h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+.nav-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #c718c7;
+    color: rgb(20, 20, 20);
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #141414;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: rgb(247, 245, 245);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-menu:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-button:hover {
+    background-color:#c718c7;
+}
+
+
+/* ================================================= */
+/* ------------------ About Style ------------------ */
+/* ================================================= */
+
+#about {
+    position: relative;
+    padding: 45px 0 60px 0;
+    background: #f2f2f2;
+}
+
+#about .img-col {
+    padding: 15px;
+    border: 20px dotted;
+    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;
+}
+
+#about .img-col .img {
+    padding: 15px;
+    border: 10px dotted;
+    border-color: #7DC576 #3E6F39 #3E6F39 #7DC576;
+}
+
+#about .img-col,
+#about .content-col {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#about .img-col .box7 {
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+
+#about .content-col h3 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 767.98px) {
+    #about .content-col {
+        text-align: center;
+    }
+    
+    #about .content-col h3 {
+        margin-top: 15px;
+    }
+}
+
+#about .content-col p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#about .content-col a {
+    display: inline-block;
+    background-color: #7DC576;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+#about .content-col a:hover {
+    background-color: #222222;
+    color: #7DC576;
+}
+
+#about .content-col a:focus {
+    color: #fff;
+}
+
+/* ================================================= */
+/* ---------------- Portfolio Style ---------------- */
+/* ================================================= */
+
+/* #portfolio {
+    position: relative;
+    padding: 50px 0 60px 0;
+} */
+
+
+/* .gallery_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+}
+.gallery_container .heading{
+
+}
+.gallery_container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.gallery_container .heading h3 span{
+    font-weight: 100;
+    
+}
+.gallery_container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.gallery_container .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.gallery_container .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+
+
+}
+
+.gallery_container .btn{
+    margin: 40px 0 70px 0;
+    background: #222;
+    padding: 15px 40px ;
+    border-radius: 5px;
+
+} */
+
+/* Style the gallery container for width and centering */
+.gallery_container {
+    max-width: 1200px; /* Limits the gallery width for larger screens */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds some spacing around the gallery */
+}
+
+/* Style the heading for visual appeal */
+.heading {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.heading h3 {
+    font-size: 24px;
+    color: #333; /* Dark gray color for text */
+}
+
+.heading span {
+    color: #ff0000; /* Red color for the word "Gallery" */
+}
+
+/* Create a three-column layout for the box div */
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 20px; /* Space between columns */
+}
+
+/* Style images inside dream divs to stack vertically */
+.dream img {
+    display: block; /* Ensures images stack vertically */
+    width: 100%; /* Images take full width of their column */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 10px; /* Space between images in the same column */
+}
+
+@media (max-width: 768px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        grid-template-columns: 1fr; /* One column on small screens */
+    }
+}
+
+.dream img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Adds a subtle border */
+}
+
+.dream img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+
+
+/* ================================================= */
+/* ----------------- Classes Style ----------------- */
+/* ================================================= */
+
+#blog {
+    position: relative;
+    padding: 50px 0 30px 0;
+    background: #ffffff;
+}
+
+#blog .single-blog {
+    margin-bottom: 30px;
+}
+
+#blog .single-blog .col-sm-6:last-child {
+    padding: 15px;
+    margin-left: -15px;
+}
+
+@media (max-width: 575.98px) {
+    #blog .single-blog .col-sm-6:last-child {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+#blog .blog-img,
+#blog .blog-des {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#blog .blog-img img {
+    width: 100%;
+}
+
+#blog .blog-img .box7 {
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+#blog .blog-des {
+    width: 100%;
+    text-align: left;
+}
+
+#blog .blog-des h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+#blog .blog-des span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#blog .blog-des span i {
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+#blog .blog-des span i:first-child {
+    margin-left: 0;
+}
+
+#blog .blog-des p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#blog .blog-des .btn {
+    padding: 3px 15px 5px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #7DC576;
+    border-radius: 20px;
+}
+
+#blog .blog-des .btn:hover {
+    color: #7DC576;
+    background: #222222;
+}
+
+/* ================================================= */
+/* ----------------- Booking Style ----------------- */
+/* ================================================= */
+#booking {
+    position: relative;
+    padding: 50px 0 60px 0;
+    background: #ffffff;
+}
+
+#booking .container {
+    max-width: 990px;
+}
+
+#booking .form-control {
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    line-height: 24px;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#booking .form-control:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+
+#booking .button button {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: #7DC576;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#booking .button button:hover {
+    color: #7DC576;
+    background: #222222;
+}
+
+#booking .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* ================================================= */
+/* ---------------- Subscribe Style ---------------- */
+/* ================================================= */
+#subscribe {
+    position: relative;
+    text-align: center;
+    padding: 45px 0 60px 0;
+    background-color: #7DC576;
+    background-image: linear-gradient(#3E6F39, #7DC576);
+}
+
+#subscribe .section-header h2 {
+    color: #ffffff;
+}
+
+#subscribe .section-header::before,
+#subscribe .section-header::after {
+    background: #fff;
+}
+
+#subscribe .subscribe-form {
+    position: relative;
+    max-width: 525px;
+    width: 100%;
+    margin: auto;
+}
+
+#subscribe .subscribe-form input[type="email"] {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    height: 50px;
+    line-height: 24px;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px; 
+}
+
+#subscribe .subscribe-form input[type="email"]:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+
+@media only screen and (max-width: 479px) {
+    #subscribe .subscribe-form input[type="email"] {
+        text-align: center; 
+    } 
+}
+
+input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder,
+input::-ms-input-placeholder { 
+    color: white; 
+}
+
+#subscribe .subscribe-form button {
+    font-size: 22px;
+    color: #7DC576;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 1px;
+    padding: 5px 30px 8px 30px;
+    margin-right: -1px;
+    border-radius: 30px;
+    background: #ffffff;
+    border: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#subscribe .subscribe-form button:hover {
+    color: #7DC576;
+    background: #222222;
+}
+
+#subscribe .subscribe-form button:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+
+
+@media only screen and (max-width: 479px) {
+    #subscribe .subscribe-form button {
+        position: static;
+        margin-top: 15px;
+        width: 100%; 
+    } 
+}
+
+/* ================================================= */
+/* ----------------- Call Us Style ----------------- */
+/* ================================================= */
+
+#call-us {
+    position: relative;
+    text-align: center;
+    padding: 45px 0 60px 0;
+    background-color: #c718c7;
+    background-image: linear-gradient(#c718c7, lightpink);
+}
+
+#call-us .section-header h2 {
+    color: #ffffff;
+}
+
+#call-us .section-header::before,
+#call-us .section-header::after {
+    background: #fff;
+}
+
+#call-us p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#call-us a {
+    display: inline-block;
+    padding: 15px 45px;
+    background: #ffffff;
+    color: #c718c7;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+#call-us a:hover {
+    color: #c718c7;
+    background:lightpink;
+}
+
+/* ================================================= */
+/* ------------------ Contact Style ---------------- */
+/* ================================================= */
+
+#contact {
+    position: relative;
+    padding: 45px 0;
+}
+
+#contact .contact-info {
+    position: relative;
+}
+
+#contact .contact-info .info-item {
+    position: relative;
+    padding: 15px 50px;
+    margin-bottom: 15px;
+    background: #f2f2f2;
+    border-radius: 100px;
+}
+
+#contact .contact-info .info-item i {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info .info-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#contact .contact-info .info-item p {
+    margin: 0;
+}
+
+#contact .contact-form {
+    position: relative;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"] {
+    height: 35px;
+    font-size: 16px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+#contact .contact-form textarea {
+    font-size: 16px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    textarea:focus,
+    input:focus {
+        font-size: 16px;
+        background: #fff;
+    }
+}
+
+#contact .contact-form button {
+    display: inline-block;
+    padding: 5px 30px 8px 30px;
+    background: #c718c7;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#contact .contact-form button:hover {
+    color: #7DC576;
+    background: #222222;
+}
+
+#contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* ================================================= */
+/* ------------------ Footer Style ----------------- */
+/* ================================================= */
+
+#footer {
+    position: relative;
+    padding: 30px 0 25px 0;
+    text-align: center;
+    background: #222222;
+}
+
+#footer .social {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#footer .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 4px 10px;
+    background: #c718c7;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#footer .social a:hover {
+    background: #ffffff;
+    color: #c718c7;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 18px;
+}
